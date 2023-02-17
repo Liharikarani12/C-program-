@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int n,i;
+Printf("enter number:");
+Scand("%d",&n);
+Printf("factors of %d are:",n);
+for(i=1;i<=n;i++)
+{
+if(num%i==0)
+{
+Printf("%d",i);
+}
+}
+return 0;
+}
