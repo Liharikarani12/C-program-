@@ -2,9 +2,9 @@
 int main()
 {
 int n,i;
-Printf("enter number:");
-Scand("%d",&n);
-Printf("factors of %d are:",n);
+printf("enter number:");
+scanf("%d",&n);
+printf("factors of %d are:",n);
 for(i=1;i<=n;i++)
 {
 if(num%i==0)
